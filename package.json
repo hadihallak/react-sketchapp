@@ -1,0 +1,54 @@
+{
+  "name": "react-sketchapp",
+  "version": "3.1.1",
+  "description": "A React renderer for Sketch.app",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "license": "MIT",
+  "author": "Jon Gold <jon.gold@airbnb.com> (http://jon.gold)",
+  "contributors": [
+    "Ben Wilkins <ben.wilkins@airbnb.com>",
+    "Leland Richardson <leland.richardson@airbnb.com>",
+    "Mathieu Dutour <mathieu@dutour.me>",
+    "Jarid Margolin <jaridmargolin@gmail.com>"
+  ],
+  "dependencies": {
+    "@lona/svg-model": "^1.0.4",
+    "@sketch-hq/sketch-file-format-ts": "^4.0.0",
+    "airbnb-prop-types": "^2.15.0",
+    "error-stack-parser": "^2.0.6",
+    "invariant": "^2.2.2",
+    "js-sha1": "^0.6.0",
+    "murmur2js": "^1.0.0",
+    "node-sketch-bridge": "^0.2.0",
+    "normalize-css-color": "^1.0.1",
+    "pegjs": "^0.10.0",
+    "prop-types": "^15.7.2",
+    "seedrandom": "^3.0.5",
+    "yoga-layout-prebuilt": "^1.9.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-test-renderer": "*"
+  },
+  "keywords": [
+    "sketch",
+    "sketchapp",
+    "react",
+    "reactjs",
+    "renderer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/airbnb/react-sketchapp"
+  },
+  "bugs": {
+    "url": "https://github.com/airbnb/react-sketchapp/issues"
+  },
+  "homepage": "https://github.com/airbnb/react-sketchapp",
+  "skpm": {
+    "test": {
+      "testRegex": "/__tests__/skpm/.*\\.jsx?$"
+    }
+  }
+}
